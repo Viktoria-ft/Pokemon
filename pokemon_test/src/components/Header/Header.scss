@@ -1,0 +1,17 @@
+@import './src/assets/index.scss';
+
+.header {
+    display: block;
+    background-color: $main-color;
+    height: 102px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;    
+}
+
+.logo {
+  height: 100%;
+  margin-left: 60px;
+  padding-top: 21px;  
+}

@@ -1,0 +1,15 @@
+@import './src/assets/index.scss';
+
+.section-title {
+    font-size: $font-36;
+    font-weight: 700;
+}
+
+.section-title::after {
+  content: '';
+  background-color: black;
+  height: 3px;
+  display: block;
+  width: 200px;
+  margin-bottom: 80px;
+}

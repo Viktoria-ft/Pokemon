@@ -1,0 +1,14 @@
+@import './src/assets/index.scss';
+
+.message {
+    padding-top: 35px;
+    width: 640px;
+    font-size: $font-20;
+    font-weight: 500;
+    margin-bottom: 35px;
+   
+
+    &__title {
+        margin-bottom: 20px;    
+    }
+}
