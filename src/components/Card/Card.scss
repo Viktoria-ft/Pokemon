@@ -1,0 +1,51 @@
+@import './src/assets/index.scss';
+
+.card {
+  width: 357px;
+  color: $Black;
+  padding-top: 20px;
+
+  &__image{
+    margin-left: 48px;
+  }
+
+  &__title {
+    font-size: $font-30;
+    font-weight: 700;    
+  }
+
+  &__generation,
+  &__type {
+    font-size: $font-14;    ;
+  }
+
+  &__button {
+    width: 100%;
+    background-color: $main-color;
+    color: $white-color;
+    font-size: $font-24;
+    font-weight: 700;
+    text-align: center;
+    padding: 22px 20px;
+    border-radius: 8px;
+    margin-top: 16px;
+    border: none;
+  }
+}
+
+.card__content {
+  padding: 24px;
+}
+
+.card:hover{
+  box-shadow: 2px 1px 12px rgba(123, 97, 255, 0.5);
+
+ .card__image {
+  transform: scale(1.1)
+ }
+
+ .card__button {
+  background: $Violet;
+  cursor: default;
+ }
+}

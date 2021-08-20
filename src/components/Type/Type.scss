@@ -1,0 +1,30 @@
+@import './src/assets/index.scss';
+
+.type {
+  padding: 5px 10px;
+  margin-left: 8px;
+  color: $White;
+  border-radius: 4px;
+  font-size: $font-12;
+  text-transform: capitalize;
+
+  &--fighting {
+    background-color: $fighting;
+  }
+
+  &--fire {
+    background-color: $fire;   
+  }
+
+  &--dark {
+    background-color: $dark;    
+  }
+
+  &--normal {
+    background-color: $normal;    
+ }
+
+ &--ground {
+    background-color: $ground;    
+ }
+}

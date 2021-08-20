@@ -1,0 +1,36 @@
+@import './src/assets/index.scss';
+
+.intro {
+    height: calc(100vh - 100px);
+    margin-top: 206px;
+    &__title {
+        font-size: $font-48;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+
+    &__content {
+        display: flex;;
+    }
+
+    &__image {
+        position: absolute;
+        margin: 0 750px;
+    }
+
+    &__tap{ 
+
+        &--scroll {
+        border: none;
+        background-color: $white-color;
+        margin: 37px 480px;
+        font-size: $font-10;
+        font-weight: 700;
+        text-transform: uppercase;
+        }
+
+    &--image {
+        margin: 10px 40px;
+    }
+   }
+}
